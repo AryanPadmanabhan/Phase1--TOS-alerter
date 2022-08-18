@@ -1,6 +1,6 @@
 
 function sendEmailsToDiscordV4() {
-     var webhookUrl = 'https://discord.com/api/webhooks/948007693275263038/KCG_mXIti8rB__fJvFgciP_3mDZUtlSIn5u2To-IsfSMZrQMpB1VIGS9_s_s5wXTK5zn';
+     var webhookUrl = //link to community not shown for privacy;
      
 
 var thread = GmailApp.getInboxThreads(0,1)[0]; // Get first thread in inbox
