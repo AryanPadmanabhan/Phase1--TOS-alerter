@@ -1,4 +1,4 @@
-# TOS-alerting
+# Phase 1: TOS-alerting
 
 This is Phase 1 of automating trading in the stock market. 
 
