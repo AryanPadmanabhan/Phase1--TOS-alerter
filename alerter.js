@@ -1,6 +1,5 @@
-
-function sendEmailsToDiscordV4() {
-     var webhookUrl = //link to community not shown for privacy;
+function phase1() {
+     var webhookUrl = '';
      
 
 var thread = GmailApp.getInboxThreads(0,1)[0]; // Get first thread in inbox
@@ -15,7 +14,14 @@ else {
 
   
 }
+var myEmbed = {
+  author: {
+    name: subget
+  },
+  title: "Weekly Watchlist Alerts",
+  description: ' ```fix\n+ ' + subget + '. It is approaching the breakout / breakdown level. ``` \n Check out <#717049214798135407> for the analysis.',
 
+}
 
 
  Logger.log(subget + '. On watch @WeeklyWatchlist');
@@ -26,7 +32,8 @@ else {
 
         var payload = {
             'username': 'Signol',
-            'content': subget + '. It is approaching the breakout level. On watch <@&948008386182664245>. Check out <#717049214798135407> for the breakdown.'
+            'content': '<@&948008386182664245>',
+            'embeds': [myEmbed]
         };
   var options = {
     headers: {
